@@ -14,8 +14,7 @@ This project is a simple URL shortener service built with FastAPI (Python) for t
 2. **Build and run the application using Docker Compose:**
 
     ```bash
-    docker-compose build
-    docker-compose up -d
+    docker compose up -d
     ```
 
     This will:
@@ -29,6 +28,12 @@ This project is a simple URL shortener service built with FastAPI (Python) for t
 
     *   **Frontend:** Open your web browser and go to `http://localhost:5173`.
     *   **Backend:** The FastAPI backend will be accessible at `http://localhost:8000`.
+
+4. **Stop Docker Containers**
+
+    ```
+    docker compose down --volumes
+    ```
 
 ## Usage
 
