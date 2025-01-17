@@ -1,0 +1,16 @@
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+.venv/
+backend/dist/
+frontend/dist/
+frontend/build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.dockerignore
+docker-compose.yml.backup*
+package-lock.json
