@@ -11,6 +11,5 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.dockerignore
 docker-compose.yml.backup*
 package-lock.json
