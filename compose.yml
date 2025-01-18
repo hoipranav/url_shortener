@@ -1,7 +1,6 @@
-version: '3.8'
 services:
   backend:
-    build: ./backend
+    image: fosskkw/url-shortener-backend
     ports:
       - "8000:8000"
     depends_on:
@@ -10,7 +9,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
   frontend:
-    build: ./frontend
+    image: fosskkw/url-shortener-frontend
     ports:
       - "5173:5173"
   redis:
